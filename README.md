@@ -34,6 +34,6 @@ When you open your jupyter_notebook_config.py file, you will notice that all of 
 
 The notebook.json file is typically in ``~/.jupyter/nbconfig/notebook.json`.
 
-The process for editing the json files directly is not recommended, but described [here](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Custom%20Keyboard%20Shortcuts.html#Keyboard-Shortcut-Customization-(Pre-Notebook-5.0) and [here](http://jupyter-notebook.readthedocs.io/en/latest/extending/keymaps.html).
+The process for editing the json files directly is **not** recommended, but described [here](http://jupyter-notebook.readthedocs.io/en/latest/extending/keymaps.html).
 
 Instead, it is recommended to [make desired changes to keyboard shortcuts using Jupyter Notebook](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Custom%20Keyboard%20Shortcuts.html).
