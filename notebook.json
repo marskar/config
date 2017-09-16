@@ -1,0 +1,18 @@
+{
+  "load_extensions": {
+    "nbbrowserpdf/index": true
+  },
+  "Notebook": {
+    "Toolbar": false,
+    "Header": false
+  },
+  "keys": {
+    "command": {
+      "bind": {
+        "cmdtrl-alt-b": "jupyter-notebook:run-all-cells-below",
+        "cmdtrl-alt-a": "jupyter-notebook:run-all-cells-above",
+        "cmdtrl-alt-r": "jupyter-notebook:run-all-cells"
+      }
+    }
+  }
+}
