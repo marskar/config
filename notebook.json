@@ -1,18 +1,30 @@
 {
-  "load_extensions": {
-    "nbbrowserpdf/index": true
+  "keys": {
+    "command": {
+      "bind": {
+        "cmdtrl-alt-b": "jupyter-notebook:run-all-cells-below",
+        "cmdtrl-alt-r": "jupyter-notebook:run-all-cells",
+        "cmdtrl-alt-a": "jupyter-notebook:run-all-cells-above"
+      }
+    }
   },
   "Notebook": {
     "Toolbar": false,
     "Header": false
   },
-  "keys": {
-    "command": {
-      "bind": {
-        "cmdtrl-alt-b": "jupyter-notebook:run-all-cells-below",
-        "cmdtrl-alt-a": "jupyter-notebook:run-all-cells-above",
-        "cmdtrl-alt-r": "jupyter-notebook:run-all-cells"
-      }
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": false
+    }
+  },
+  "MarkdownCell": {
+    "cm_config": {
+      "lineWrapping": true
+    }
+  },
+  "CodeCell": {
+    "cm_config": {
+      "lineWrapping": true
     }
   }
 }
