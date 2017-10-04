@@ -1,0 +1,42 @@
+"*":
+  "atom-beautify":
+    bash:
+      beautify_on_save: true
+    markdown:
+      beautify_on_save: true
+    python:
+      beautify_on_save: true
+    r:
+      beautify_on_save: true
+  "autocomplete-python":
+    useKite: false
+  autosave:
+    enabled: true
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "wrap-guide"
+      "markdown-preview"
+      "welcome"
+      "about"
+      "metrics"
+      "styleguide"
+      "package-generator"
+      "atom-beautify"
+    ]
+    packagesWithKeymapsDisabled: [
+      "autocomplete-python"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 18
+    lineHeight: 1.75
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    tabLength: 4
+   "grammar-selector": {}
+  "markdown-preview-plus":
+    enableLatexRenderingByDefault: true
+  welcome:
+    showOnStartup: false
