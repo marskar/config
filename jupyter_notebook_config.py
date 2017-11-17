@@ -19,9 +19,9 @@ def post_save(model, os_path, contents_manager):
         return # only do this for notebooks
     d, fname = os.path.split(os_path)
     #comment out  your choice of the options below
-    check_call(['jupyter', 'nbconvert', '--to', 'html', fname], cwd=d)
+    #check_call(['jupyter', 'nbconvert', '--to', 'html', fname], cwd=d)
     check_call(['jupyter', 'nbconvert', '--to', 'script', fname], cwd=d)
-    check_call(['jupyter', 'nbconvert', '--to', 'markdown', fname], cwd=d)
+    #check_call(['jupyter', 'nbconvert', '--to', 'markdown', fname], cwd=d)
     #check_call(['jupyter', 'nbconvert', '--to', 'slides', fname], cwd=d)
     #use the line above only if you want to generate a slideshow presentation
     #check_call(['jupyter', 'nbconvert', '--to', 'pdf', fname], cwd=d)
