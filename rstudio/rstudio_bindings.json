@@ -1,0 +1,6 @@
+{
+    "quickAddNext" : "Cmd+D",
+    "renameInScope" : "Ctrl+Cmd+G",
+    "roxygenizePackage" : "Shift+Alt+Cmd+D",
+    "setWorkingDir" : "Shift+Cmd+H"
+}
