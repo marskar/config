@@ -1,6 +1,15 @@
 # Config
 
-Here you will find config files for [Atom](https://atom.io/) and [Jupyter Notebook](http://jupyter-notebook-beginner-guide.readthedocs.io/). There is also [conda environment file](https://conda.io/docs/using/envs.html). You can use `conda` commands and `apm` commands to install and manage Conda and Atom packages, respectively.
+Here you will find config files for [RStudio](https://www.rstudio.com/) [Atom](https://atom.io/) and [Jupyter Notebook](http://jupyter-notebook-beginner-guide.readthedocs.io/). There is also [conda environment file](https://conda.io/docs/using/envs.html). You can use `conda` commands and `apm` commands to install and manage Conda and Atom packages, respectively.
+
+## RStudio keyboard shortcuts
+
+RStudio keyboard shortcuts are stored as JSON files that should go ` ~/.R/rstudio/keybindings/`.
+
+I highly recommend enabling the [Vim keyboard shortcuts](https://support.rstudio.com/hc/en-us/community/posts/208492728-Vim-Editing-Mode)! 
+Emacs (if you prefer) is available too!
+
+More on RStudio coming soon!
 
 ## Atom
 
