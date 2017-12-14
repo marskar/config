@@ -4,7 +4,7 @@ Here you will find config files for [RStudio](https://www.rstudio.com/) [Atom](h
 
 ## RStudio keyboard shortcuts
 
-RStudio keyboard shortcuts are stored as JSON files that should go ` ~/.R/rstudio/keybindings/`.
+RStudio keyboard shortcuts are stored as JSON files that should go here: ` ~/.R/rstudio/keybindings/`.
 
 I highly recommend enabling the [Vim keyboard shortcuts](https://support.rstudio.com/hc/en-us/community/posts/208492728-Vim-Editing-Mode)! 
 Emacs (if you prefer) is available too!
