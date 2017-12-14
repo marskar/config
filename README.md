@@ -1,6 +1,6 @@
 # Config
 
-Here you will find config files for [RStudio](https://www.rstudio.com/), [Atom](https://atom.io/), and [Jupyter Notebook](http://jupyter-notebook-beginner-guide.readthedocs.io/). There is also [conda environment file](https://conda.io/docs/using/envs.html). You can use `conda` commands and `apm` commands to install and manage Conda and Atom packages, respectively, from the command line.
+Here you will find config files for [RStudio](https://www.rstudio.com/), [Atom](https://atom.io/), and [Jupyter Notebooks](http://jupyter-notebook-beginner-guide.readthedocs.io/). There is also a [conda environment file](https://conda.io/docs/using/envs.html) that you can use with [conda](https://conda.io/) or to automatically include dependencies when you launch live Jupyter Notebooks from your [GitHub](https://github.com/) repo with [binder](https://mybinder.org/) (the file must be named `environment.yml` for this to work). You can use `conda` commands and `apm` commands to install and manage Conda and Atom packages, respectively, from the command line.
 
 ## RStudio keyboard shortcuts
 
