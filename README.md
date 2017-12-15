@@ -2,9 +2,14 @@
 
 Here you will find config files for [RStudio](https://www.rstudio.com/), [Atom](https://atom.io/), and [Jupyter Notebooks](http://jupyter-notebook-beginner-guide.readthedocs.io/). There is also a [conda environment file](https://conda.io/docs/using/envs.html) that you can use with [conda](https://conda.io/) or to automatically include dependencies when you launch live Jupyter Notebooks from your [GitHub](https://github.com/) repo with [binder](https://mybinder.org/) (the file must be named `environment.yml` for this to work). You can use `conda` commands and `apm` commands to install and manage Conda and Atom packages, respectively, from the command line.
 
+## RStudio user settings
+
+On a Mac, the RStudio user settings are saved as `user-settings` (no file extension) in `~/.rstudio-desktop/monitored/user-settings`.
+
+
 ## RStudio keyboard shortcuts
 
-RStudio keyboard shortcuts are stored as JSON files that should go here: ` ~/.R/rstudio/keybindings/`.
+RStudio keyboard shortcuts are stored as JSON files that should go here: `~/.R/rstudio/keybindings/`.
 
 I highly recommend enabling the [Vim keyboard shortcuts](https://support.rstudio.com/hc/en-us/community/posts/208492728-Vim-Editing-Mode)!
 Emacs shortcuts (if you prefer) are available too!
